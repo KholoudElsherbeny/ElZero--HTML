@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- str  Task1 -->
+    <form action="" method="get">
+        <div>
+            <label hidden>Token</label>
+            <input type="text" value="b92f1fc2fce391ad7af633723afd3055" hidden name="token">
+        </div> 
+        <div>
+            <label>Username</label><br>
+            <input type="text" autofocus minlength="5" maxlength="20" name="username">
+        </div>
+        <br>
+        <div>
+            <label>Email</label><br>
+            <input type="email" value="o@o.com" disabled name="email"> 
+        </div>
+        <hr>
+        <!-- end Task1  -->
+        <!-- star Task2 -->
+        <div>       
+            <div>
+                <input type="checkbox" id="Skill1" name="skills" value="Problem Solving">
+                <label for="Skill1">Problem Solving</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Skill2" name="skills" value="Logical Thinking">
+                <label for="Skill2">Logical Thinking</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Skill3" name="skills" value="Advanced Search">
+                <label for="Skill3">Advanced Search</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Skill4" name="skills" value="Analysis">
+                <label for="Skill4">Analysis</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Skill5" name="skills" value="Planinng">
+                <label for="Skill5">Planinng</label>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <div>
+                <input type="radio" id="job1" name="Jobs" value="Front-End Developer">
+                <label for="job1">Front-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" id="job2" name="Jobs" value="Back-End Developer">
+                <label for="job2">Back-End Developer</label>
+            </div>
+            <div>
+                <input type="radio" id="job3" name="Jobs" value="Business Analist">
+                <label for="job3">Business Analist</label>
+            </div>
+            <div>
+                <input type="radio" id="job4" name="Jobs" value="Project Manager">
+                <label for="job4">Project Manage</label>
+            </div>
+            <div>
+                <input type="radio" id="job5" name="Jobs" value="Scurm Master">
+                <label for="job5">Scurm Master</label>
+            </div>
+        </div>
+        <!-- end Task2 -->
+        <!-- star Task3 -->
+        <div>
+            <label for="book">Choose Book:</label>
+            <select name="Book" id="book">
+                <optgroup label="PHP">
+                    <option>v5.0</option>
+                    <option>v7.0</option>
+                    <option>v8.0</option>
+                </optgroup>
+                <optgroup label="Python">
+                    <option>v2.0</option>
+                    <option>v3.0</option>
+                    <option>v3.9</option>
+                </optgroup>
+            </select>
+        </div>
+        <hr>
+        <textarea name="brief" placeholder="Write Here Why You Want To Learn Programming" cols="40" rows="10"></textarea>
+        <br>
+        <div>
+            <input type="reset" value="Empty">
+            <input type="submit" value="Send">
+        </div>
+        <!--end Task3 -->
+    </form>
+</body>
+</html>
